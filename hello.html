@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .second-container{
+            margin-top: 0.5rem;
+        }
+        .third-container{
+            margin-top: 0.5rem;
+        }
+        #studentaddress{
+            border-radius: 4px;
+        }
+        #studentnumber{
+            border-radius: 4px;
+        }
+        #studentname{
+            border-radius: 4px;
+        }
+        .pass{
+            position: relative;
+            top: 1rem;
+        }
+        .pass label{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .pass .p1{
+            border-radius: 2px solid purple;
+        }
+        .button{
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <form action="GET">
+        <label for="studentname">Student Name</label>
+        <input type="text" id="studentname" placeholder="Enter your name">
+        <div class="second-container">
+            <label for="studentaddress">Student Address</label>
+            <input id="studentaddress" type="text" placeholder="Enter your address">
+        </div>
+        <div class="third-container">
+            <label for="studentnumber">Student Number</label>
+            <input id="studentnumber" type="text" placeholder="Enter your number">
+        </div>
+        <div class="radius-content">
+            <label for="first">Male</label>
+            <input type="radio" id="first">
+            <label for="second">Female</label>
+            <input type="radio" id="second">
+        </div>
+        <div class="terms">
+            <h3>Terms and condition</h3>
+            <input type="checkbox" id="third">
+            <label for="third">Click on this to accept the companies terms and condition</label>
+        </div>
+        <div class="pass">
+            <label for="p1">Password</label>
+            <input type="text" class="p1" placeholder="Enter your password">
+        </div>
+        <div class="button">
+            <button id="butto1" type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
